@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/portfolio/calendar",
+      "source": "/portfolio/photography-website",
       "destination": "photography-web-site.vercel.app"
     }
   ]
