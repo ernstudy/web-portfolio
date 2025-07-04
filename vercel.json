@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/portfolio/photography-website",
-      "destination": "photography-web-site.vercel.app"
+      "destination": "https://photography-web-site.vercel.app"
     }
   ]
 }
