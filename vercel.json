@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/portfolio/photography-website",
+      "destination": "https://photography-web-site.vercel.app"
+    },
+    {
+      "source": "/portfolio/new",
+      "destination": "https://new-next-app-theta.vercel.app/"
+    }
+  ]
+}
