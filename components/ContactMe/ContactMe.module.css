@@ -1,0 +1,29 @@
+.container {
+  text-align: initial;
+  color: var(--text-color-primary);
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+}
+
+.title {
+  font-size: var(--font-size-md);
+  color: var(--color-muted-text);
+}
+
+.decorate {
+  color: var(--main-color);
+}
+
+.heading {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

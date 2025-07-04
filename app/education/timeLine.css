@@ -1,0 +1,29 @@
+/* time line */
+.vertical-timeline-element-title {
+  font-size: var(--font-size-lg);
+  opacity: 0.9;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: var(--font-size-md);
+  opacity: 0.85 !important;
+}
+
+.vertical-timeline-element-content p {
+  font-size: var(--font-size-sm);
+  opacity: 0.8 !important;
+  letter-spacing: 0.08rem;
+  font-weight: 400;
+}
+
+.date-timeline {
+  font-size: clamp(1.2rem, 2vw, 1.4rem) !important;
+}
+
+@media (min-width: 1200px) {
+  .date-timeline {
+    color: var(--color-text);
+  }
+}

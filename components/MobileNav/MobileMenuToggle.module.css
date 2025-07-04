@@ -1,0 +1,37 @@
+.container {
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  z-index: 60;
+}
+
+.menuButton {
+  background-color: var(--color-main-500);
+  color: white;
+  border: #fff solid 0.1rem;
+  padding: 1.4rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: var(--box-shadow-base);
+  cursor: pointer;
+}
+
+.closeButton {
+  margin-top: 1rem;
+  background-color: var(--color-gray-300);
+  color: var(--color-text);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--border-radius-base);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1.6rem;
+}

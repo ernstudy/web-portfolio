@@ -1,0 +1,32 @@
+.profile {
+  margin-bottom: var(--spacing-lg);
+}
+
+.avatar {
+  background-repeat: no-repeat;
+  background-size: 25rem;
+  background-position: top;
+  width: 22rem;
+  height: 22rem;
+}
+
+.name {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.role {
+  font-size: var(--font-size-md);
+  color: var(--color-muted-text);
+  text-align: initial;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

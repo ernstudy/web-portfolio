@@ -1,0 +1,69 @@
+.title {
+  color: var(--main-color);
+  font-size: var(--font-size-xl);
+}
+
+.info {
+  margin-bottom: 2.5rem;
+}
+
+.content {
+  color: var(--text-color);
+  font-size: var(--font-size-md);
+}
+
+.projects {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.boxes {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: baseline;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+  justify-content: center;
+}
+
+.box {
+  padding-bottom: 2.2rem;
+  box-shadow: var(--box-shadow-base);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  height: max-content;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transform: rotate(-5deg);
+}
+
+/* .image {
+  width: 100%;
+  height: clamp(20rem, 25rem, 28rem);
+  height: 20rem;
+  background-color: #ccc;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+} */
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.projectTitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  line-height: 1.2;
+  margin: 0.6rem 0 1.2rem;
+}

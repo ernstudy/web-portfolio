@@ -1,0 +1,51 @@
+/* TECHNOLOGIES */
+
+.container {
+  padding: 2.2rem 0;
+  padding: 1.5rem 0;
+}
+
+.heading {
+  font-size: var(--item-size);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.skills {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.circle {
+  width: max-content;
+  height: auto;
+  border: solid 1px #d7eeff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.3rem;
+  background-color: #f6fbff;
+}
+
+.icons {
+  width: 30px;
+  overflow: hidden;
+  margin-right: 5px;
+  display: flex;
+  place-content: center;
+}
+
+.icon {
+  width: 100%;
+}
+
+.name {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 450;
+  color: var(--color-muted-text);
+}

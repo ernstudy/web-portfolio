@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/* globals.css */
+
+/* ✨ Import Google Font */
+
+/* 📐 Base font size: 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+/* 🌞 Light Theme Variables */
+:root {
+  /* Typography */
+  --font-family-base: "Robik", sans-serif;
+
+  /* Responsive font sizes */
+  --font-size-xs: clamp(1.2rem, 1vw, 1.4rem); /* Extra small text */
+  --font-size-sm: clamp(1.4rem, 1.2vw, 1.6rem); /* Small paragraphs */
+  --font-size-md: clamp(1.6rem, 1.4vw, 1.8rem); /* Base text */
+  --font-size-lg: clamp(2rem, 2vw, 2.4rem); /* Subheadings */
+  --font-size-xl: clamp(2.4rem, 2.5vw, 3rem); /* Headings */
+  --font-size-xxl: clamp(3rem, 3vw, 4rem); /* Hero titles */
+
+  /* Spacing & layout */
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 3.2rem;
+
+  --border-radius-base: 0.8rem;
+  --box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --max-width-content: 1200px;
+
+  /* Main color scale (Material UI Blue) */
+  --color-main-100: #e3f2fd;
+  --color-main-200: #bbdefb;
+  --color-main-300: #90caf9;
+  --color-main-400: #64b5f6;
+  --color-main-500: #2196f3; /* Default */
+  --color-main-600: #1e88e5;
+  --color-main-700: #1976d2;
+  --color-main-800: #1565c0;
+  --color-main-900: #0d47a1;
+
+  /* Main state colors */
+  --main-color: var(--color-main-500);
+  --main-color-hover: var(--color-main-400);
+  --main-color-active: var(--color-main-600);
+  --main-color-dark: var(--color-main-700);
+  --main-color-light: var(--color-main-300);
+  --main-color-outline: rgba(33, 150, 243, 0.4);
+
+  /* Additional accent colors */
+  --color-secondary: #a084ca;
+  --color-accent: #ff85a2;
+
+  /* Grayscale */
+  --color-gray-100: #f7f7f7;
+  --color-gray-200: #eeeeee;
+  --color-gray-300: #dddddd;
+  --color-gray-400: #cccccc;
+  --color-gray-500: #bbbbbb;
+  --color-gray-600: #999999;
+  --color-gray-700: #777777;
+  --color-gray-800: #555555;
+  --color-gray-900: #333333;
+
+  /* Backgrounds and borders */
+  --color-bg: var(--color-gray-100);
+  --color-surface: #fafafa;
+  --color-border: #e0e0e0;
+  --color-muted-text: #666666;
+  --color-text: var(--color-gray-800);
+}
+
+/* 🌚 Dark Theme Variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Darker variants of main color */
+    --color-main-100: #0d47a1;
+    --color-main-200: #1565c0;
+    --color-main-300: #1976d2;
+    --color-main-400: #1e88e5;
+    --color-main-500: #2196f3;
+    --color-main-600: #42a5f5;
+    --color-main-700: #64b5f6;
+    --color-main-800: #90caf9;
+    --color-main-900: #bbdefb;
+
+    --main-color: var(--color-main-500);
+    --main-color-hover: var(--color-main-400);
+    --main-color-active: var(--color-main-600);
+    --main-color-outline: rgba(33, 150, 243, 0.5);
+
+    --color-secondary: #c5b3e8;
+    --color-accent: #ffb3c6;
+
+    --color-gray-100: #1a1a1a;
+    --color-gray-200: #2c2c2c;
+    --color-gray-300: #3d3d3d;
+    --color-gray-400: #4e4e4e;
+    --color-gray-500: #606060;
+    --color-gray-600: #737373;
+    --color-gray-700: #8c8c8c;
+    --color-gray-800: #a6a6a6;
+    --color-gray-900: #cfcfcf;
+    --color-bg: var(--color-gray-100);
+    --color-surface: #212121;
+    --color-border: #333333;
+    --color-muted-text: #aaaaaa;
+    --color-text: var(--color-gray-900);
+  }
+}
+
+/* 🖋 Base body styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-muted-text);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container-all {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10rem;
+}
+
+@media (max-width: 768px) {
+  .container-all {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-top: 6rem;
+  }
+}

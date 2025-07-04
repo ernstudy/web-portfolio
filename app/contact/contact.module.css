@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+}
+
+.title {
+  color: var(--main-color);
+  font-size: var(--font-size-xl);
+}
+
+.content {
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+}
+

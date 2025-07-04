@@ -1,0 +1,23 @@
+.about {
+  padding-bottom: 2.2rem;
+}
+
+.title {
+  color: var(--main-color);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+
+.description {
+  font-size: var(--font-size-md);
+  color: var(--color-muted-text);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.link:hover {
+  text-decoration: underline;
+}

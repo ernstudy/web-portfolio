@@ -1,0 +1,18 @@
+.title {
+  color: var(--main-color);
+  font-size: var(--font-size-xl);
+}
+
+.info {
+  color: var(--text-color);
+  font-size: var(--font-size-md);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.link:hover {
+  text-decoration: underline;
+}

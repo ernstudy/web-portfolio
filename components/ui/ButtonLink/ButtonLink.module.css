@@ -1,0 +1,25 @@
+.button {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: var(--font-size-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  gap: 0.4rem;
+  color: var(--main-color);
+  padding: 0.4rem 0.6rem;
+}
+
+.button:hover {
+  background-color: var(--color-main-100);
+}
+
+.icon {
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.button:hover .icon {
+  transform: translatex(0.6rem);
+}

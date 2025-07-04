@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* align-items: center; */
+  margin-top: 0.6rem;
+  color: var(--color-muted-text);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin: 0 0.5rem;
+  font-size: var(--font-size-lg);
+}
+
+.autor {
+  font-size: var(--font-size-xs);
+  margin-top: 0.4rem;
+  color: var(--color-muted-text);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    align-items: center;
+    margin-top: 7rem;
+  }
+}
