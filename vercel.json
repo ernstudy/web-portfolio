@@ -3,6 +3,10 @@
     {
       "source": "https://ernstudy.com/portfolio/photography-website",
       "destination": "https://photography-web-site.vercel.app"
+    },
+    {
+      "source": "/portfolio/new",
+      "destination": "new-next-app-theta.vercel.app"
     }
   ]
 }
