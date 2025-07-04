@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/portfolio/photography-website",
+      "source": "https://ernstudy.com/portfolio/photography-website",
       "destination": "https://photography-web-site.vercel.app"
     }
   ]
