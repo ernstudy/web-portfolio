@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📁 Ernstudy – Personal Portfolio of SAINGILLES ERNST
 
-## Getting Started
+Welcome to my personal portfolio built with **Next.js**, showcasing my work as a **UI/UX designer** and **frontend web developer**. This project reflects my passion for responsive design, smooth animations, and scalable component architecture.
 
-First, run the development server:
+## 🚀 Live Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👉 [https://www.ernstudy.com](https://www.ernstudy.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 About
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I’m SAINGILLES ERNST, a frontend developer focused on crafting modern web experiences using tools like **Tailwind CSS**, **Material ui**, **Framer Motion**, and **Zustand**. This portfolio demonstrates my technical proficiency and visual approach to clean interface design.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Technologies Used
 
-## Learn More
+- **Next.js (App Router)**
+- **Material ui**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Google Fonts: Rubik**
+- **React Icons**
+- **Zustand (optional)**
+- **Modular CSS + CSS Variables**
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📱 Mobile-friendly navigation with toggle and active highlighting
+- 🎨 Sidebar and bottom bar built with accessible layout components
+- 💡 SEO-optimized metadata for each page
+- 🖼️ OpenGraph preview images for social sharing
+- 📄 Sitemap and robots.txt generation via `next-sitemap`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Pages Included
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Home** – Introduction and overview
+- **Portfolio** – Projects with UI/UX detail
+- **Education** – Learning journey and tools
+- **Contact** – Reach out and collaborate
