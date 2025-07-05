@@ -7,10 +7,6 @@
     {
       "source": "/photography",
       "destination": "photography-website-lime.vercel.app"
-    },
-    {
-      "source": "/portfolio/hamburger-website",
-      "destination": "https://tangerine-vacherin-d906fc.netlify.app/"
     }
   ]
 }
