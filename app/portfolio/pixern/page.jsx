@@ -1,4 +1,4 @@
-export default function page() {
+export default function PixernRedirect() {
   return (
     <iframe
       src="https://ernstudy.github.io/pixern"

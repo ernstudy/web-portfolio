@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function page() {
+export default function HamburgerRedirect() {
   return (
     <iframe
       src="https://ernstudy.github.io/hamburger-website"
