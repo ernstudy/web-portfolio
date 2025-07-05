@@ -17,7 +17,7 @@ export default function pages() {
         scrollbarWidth: "none",
         zIndex: 9999,
       }}
-      title="Photography Website"
+      title="Math4kids App"
     />
   );
 }

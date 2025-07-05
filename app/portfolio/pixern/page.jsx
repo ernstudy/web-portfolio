@@ -1,9 +1,7 @@
-import React from "react";
-
 export default function page() {
   return (
     <iframe
-      src="https://ernstudy.github.io/hamburger-website"
+      src="https://ernstudy.github.io/pixern"
       width="100%"
       height="100%"
       style={{
@@ -17,7 +15,7 @@ export default function page() {
         scrollbarWidth: "none",
         zIndex: 9999,
       }}
-      title="Hamburger website"
+      title="Pixern | Free Images App"
     />
   );
 }
