@@ -7,6 +7,10 @@
     {
       "source": "/photography",
       "destination": "photography-website-lime.vercel.app"
+    },
+    {
+      "source": "/photography",
+      "destination": "photography-website-lime.vercel.app"
     }
   ]
 }

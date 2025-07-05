@@ -17,7 +17,7 @@ export default function HambugerRedirect() {
         scrollbarWidth: "none",
         zIndex: 9999,
       }}
-      title="Math4kids App"
+      title="Hamburger website"
     />
   );
 }
