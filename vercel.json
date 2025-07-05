@@ -3,6 +3,10 @@
     {
       "source": "/calendar",
       "destination": "https://calendar.ernstudy.com"
+    },
+    {
+      "source": "/photography",
+      "destination": "photography-website-lime.vercel.app"
     }
   ]
 }
