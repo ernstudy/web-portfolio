@@ -12,6 +12,8 @@ export default function PhotographyRedirect() {
         bottom: 0,
         right: 0,
         left: 0,
+        scrollbarWidth: "none",
+        zIndex: 9999,
       }}
       title="Ernews | News App"
     />

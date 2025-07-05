@@ -1,7 +1,9 @@
-export default function PhotographyRedirect() {
+import React from "react";
+
+export default function pages() {
   return (
     <iframe
-      src="https://photography-web-site.vercel.app"
+      src="https://ernstudy.github.io/math4kids"
       width="100%"
       height="100%"
       style={{

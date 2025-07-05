@@ -1,7 +1,9 @@
-export default function PhotographyRedirect() {
+import React from "react";
+
+export default function page() {
   return (
     <iframe
-      src="https://photography-web-site.vercel.app"
+      src="https://ernstudy.github.io/math4kids"
       width="100%"
       height="100%"
       style={{
@@ -15,7 +17,7 @@ export default function PhotographyRedirect() {
         scrollbarWidth: "none",
         zIndex: 9999,
       }}
-      title="Photography Website"
+      title="Hamburger website"
     />
   );
 }
