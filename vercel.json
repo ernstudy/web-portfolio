@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/calendar",
+      "destination": "https://calendar.ernstudy.com"
+    }
+  ]
+}
