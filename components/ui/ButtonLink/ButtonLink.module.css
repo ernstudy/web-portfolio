@@ -18,8 +18,9 @@
 .icon {
   vertical-align: middle;
   transition: all 0.5s;
+  font-size: var(--font-size-sm);
 }
 
 .button:hover .icon {
-  transform: translatex(0.6rem);
+  transform: translatex(0.7rem);
 }
