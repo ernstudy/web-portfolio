@@ -5,9 +5,21 @@ import React from "react";
 import { FaExternalLinkSquareAlt, FaGithub } from "react-icons/fa";
 import styles from "./page.module.css";
 
+export async function generateStaticParams() {
+  const totalItems = projectList.length;
+
+  return Array.from({ length: totalItems }, (_, index) => ({
+    id: index.toString(),
+  }));
+}
+
 export default async function page({ params }) {
   const id = await params.id;
   const project = projectList[Number(id)];
+
+  if (!project) {
+    return <h1 className={styles.notFound}>Project not found</h1>;
+  }
 
   return (
     <section className="section-page">
