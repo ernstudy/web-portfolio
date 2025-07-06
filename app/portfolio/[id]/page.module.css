@@ -43,3 +43,10 @@
   gap: 1rem;
   width: max-content;
 }
+
+.notFound {
+  font-size: var(--font-size-xl);
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--color-text);
+}
