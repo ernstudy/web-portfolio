@@ -6,17 +6,16 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.icons}>
-        <a href="#">
+        <a href="https://github.com/ernstudy">
           <FaGithub className={styles.icon} />
         </a>
-        <a href="#">
-          {" "}
+        <a href="https://linkedin.com/in/ernstudy">
           <FaLinkedinIn className={styles.icon} />
         </a>
-        <a href="#">
+        <a href="https://facebook.com/ernstudy">
           <FaFacebook className={styles.icon} />
         </a>
-        <a href="#">
+        <a href="https://youtube.com/@ernst_dev">
           <FaYoutube className={styles.icon} />
         </a>
       </div>
