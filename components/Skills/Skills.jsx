@@ -11,6 +11,10 @@ import nodejs_svg from "../../public/images/skills/node-js.svg";
 import vscode_svg from "../../public/images/skills/vscode.svg";
 import filmora_svg from "../../public/images/skills/filmora.svg";
 import canva_svg from "../../public/images/skills/canva.svg";
+import nextJS from "../../public/images/skills/next-js.svg";
+import typescript from "../../public/images/skills/TypeScript.svg";
+import webflow from "../../public/images/skills/Webflow.svg";
+
 import styles from "./Skills.module.css";
 import Image from "next/image";
 
@@ -20,9 +24,12 @@ export default function Skills() {
     { name: "CSS", icon: CSS_svg },
     { name: "JavaScript", icon: JS_svg },
     { name: "React", icon: React_svg },
+    { name: "NextJS", icon: nextJS },
+    { name: "TypeScript", icon: typescript },
     { name: "Material Ui", icon: materialUI_svg },
     { name: "Bootstrap", icon: bootstrap_svg },
     { name: "Tailwind CSS", icon: tailwind_svg },
+    { name: "Webflow", icon: webflow },
     { name: "Git", icon: git_svg },
     { name: "Figma", icon: figma_svg },
     { name: "Node JS", icon: nodejs_svg },
