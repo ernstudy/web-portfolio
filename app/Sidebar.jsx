@@ -20,9 +20,9 @@ export default function Sidebar() {
 
   const navItems = [
     { href: "/", label: "Home", icon: <FaHome /> },
-    { href: "/education", label: "Education", icon: <FaGraduationCap /> },
-    { href: "/portfolio", label: "Portfolio", icon: <FaBriefcase /> },
-    { href: "/contact", label: "Contact", icon: <FaEnvelope /> },
+    { href: "/education/", label: "Education", icon: <FaGraduationCap /> },
+    { href: "/portfolio/", label: "Portfolio", icon: <FaBriefcase /> },
+    { href: "/contact/", label: "Contact", icon: <FaEnvelope /> },
   ];
 
   return (
