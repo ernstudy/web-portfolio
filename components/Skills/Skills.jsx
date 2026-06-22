@@ -19,24 +19,74 @@ import styles from "./Skills.module.css";
 import Image from "next/image";
 
 export default function Skills() {
-  const skills = [
-    { name: "HTML", icon: HTML_svg },
-    { name: "CSS", icon: CSS_svg },
-    { name: "JavaScript", icon: JS_svg },
-    { name: "React", icon: React_svg },
-    { name: "NextJS", icon: nextJS },
-    { name: "TypeScript", icon: typescript },
-    { name: "Material Ui", icon: materialUI_svg },
-    { name: "Bootstrap", icon: bootstrap_svg },
-    { name: "Tailwind CSS", icon: tailwind_svg },
-    { name: "Webflow", icon: webflow },
-    { name: "Git", icon: git_svg },
-    { name: "Figma", icon: figma_svg },
-    { name: "Node JS", icon: nodejs_svg },
-    { name: "VS Code", icon: vscode_svg },
-    { name: "Filmora", icon: filmora_svg },
-    { name: "Canva", icon: canva_svg },
-  ];
+ const skills = [
+  {
+    name: "JavaScript",
+    icon: "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"
+  },
+  {
+    name: "TypeScript",
+    icon: "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"
+  },
+  {
+    name: "React",
+    icon: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB"
+  },
+  {
+    name: "Next.js",
+    icon: "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white"
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white"
+  },
+  {
+  name: "Bootstrap",
+  icon: "https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white"
+},
+{
+  name: "Material UI",
+  icon: "https://img.shields.io/badge/Material%20UI-0078D4?logo=mui&logoColor=white"
+},
+  {
+    name: "Node.js",
+    icon: "https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white"
+  },
+  {
+    name: "Express.js",
+    icon: "https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white"
+  },
+  {
+    name: "PostgreSQL",
+    icon: "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"
+  },
+  {
+    name: "Prisma",
+    icon: "https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white"
+  },
+  {
+    name: "Supabase",
+    icon: "https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white"
+  },
+  {
+    name: "Git",
+    icon: "https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white"
+  },
+  {
+    name: "Docker",
+    icon: "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"
+  }, 
+  {
+  name: "Figma",
+  icon: "https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white"
+},
+{
+  name: "Filmora",
+  icon: "https://img.shields.io/badge/Filmora-00AEEF?logo=wondershare&logoColor=white"
+},
+
+
+];
   return (
     <section className={styles.container}>
       <h3 className={styles.heading}> Skills :</h3>
@@ -49,9 +99,11 @@ export default function Skills() {
                 src={item.icon}
                 alt="skills icon"
                 className={styles.icon}
+                width={500}
+                height={500}
               />
             </div>
-            <span className={styles.name}>{item.name}</span>
+            {/* <span className={styles.name}>{item.name}</span> */}
           </div>
         ))}
       </div>

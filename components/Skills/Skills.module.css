@@ -18,7 +18,7 @@
   flex-wrap: wrap;
 }
 
-.circle {
+/* .circle {
   width: max-content;
   height: auto;
   border: solid 1px #d7eeff;
@@ -29,10 +29,11 @@
   text-align: center;
   padding: 0.3rem;
   background-color: #f6fbff;
-}
+} */
 
 .icons {
-  width: 30px;
+
+  /* height: 70px; */
   overflow: hidden;
   margin-right: 5px;
   display: flex;
