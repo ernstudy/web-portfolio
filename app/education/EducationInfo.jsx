@@ -31,6 +31,15 @@ export default function EducationInfo() {
           Udemy
         </a>
         ,{" "}
+           <a
+          href="https://platzi.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.link}
+        >
+          Platzi
+        </a>
+        ,{" "}
         <a
           href="https://ed.team"
           target="_blank"
