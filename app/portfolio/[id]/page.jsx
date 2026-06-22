@@ -34,7 +34,19 @@ export default async function page({ params }) {
             />
           </div>
           <div className={styles.info}>
+             {/* tecnologies used */}
+            <div className={styles.tecnologies}>
+              {project?.tecnologies?.map((tecnology) => (
+                <img
+                  className={styles.img}
+                  src={tecnology}
+                  alt={tecnology}
+                />
+              ))}
+            </div>
+            
             <h1 className={styles.title}>{project?.name}</h1>
+           
             <p className={styles.description}>{project?.description}</p>
             {/* Button  */}
             <div

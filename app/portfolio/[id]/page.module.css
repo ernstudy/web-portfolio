@@ -50,3 +50,19 @@
   margin-top: 3rem;
   color: var(--color-text);
 }
+
+.tecnologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tecnologies span {
+  padding: 0.25rem 0.5rem;
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  border-radius: 0.25rem;
+}
+
+/* mobileResponsive */
+
