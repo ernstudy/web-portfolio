@@ -7,7 +7,7 @@ export default function AboutMe() {
     <section className={styles.about}>
       <h1 className={styles.title}>
         <ReactTyped
-          strings={["UI/UX Designer", "Content creator"]}
+          strings={["Software developer", "Content creator"]}
           typeSpeed={100}
           backSpeed={70}
           loop
@@ -15,10 +15,7 @@ export default function AboutMe() {
       </h1>
 
       <p className={styles.description}>
-        I am a web designer specializing in creating user interfaces (UI) and
-        user experiences (UX) for web applications. My goal is to create
-        visually appealing, functional, and user-friendly websites, ensuring a
-        smooth and enjoyable experience for users.
+  I build modern web applications with a focus on creating intuitive user interfaces, reliable backend systems, and scalable digital solutions. I work with frontend and backend technologies to develop complete applications, using tools such as Node.js, databases, APIs, and modern development frameworks.
         <LinkButton
           text="See My Academic Journey"
           path="/education"
@@ -33,11 +30,7 @@ export default function AboutMe() {
       <br />
 
       <p className={styles.description}>
-        In 2020, I decided to learn about video creation and began producing
-        educational content for YouTube, contributing to the student community.
-        My content focuses on language learning, teaching phrases, vocabulary,
-        and providing tests to improve listening and speaking comprehension. You
-        can find my work on my YouTube channels:{" "}
+       In 2020, I started creating educational videos for YouTube, helping learners improve their language skills through lessons, vocabulary, phrases, and listening practice. You can find my content on my YouTube channels: {" "}
         <a
           href="https://youtube.com/@aprendemosespanol"
           target="_blank"
@@ -69,9 +62,8 @@ export default function AboutMe() {
       <br />
       <p className={styles.description}>
         {" "}
-        In my free time, I enjoy listening to podcasts, watching technology
-        videos, and documentaries to learn more about the world.
-      </p>
+        In my free time, I enjoy listening to podcasts, watching technology videos, and exploring documentaries to continue learning about software, innovation, and the world around me.
+        </p>
     </section>
   );
 }

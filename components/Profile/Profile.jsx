@@ -10,7 +10,7 @@ export default function Profile() {
 
       <h2 className={styles.name}>Ernst Saint-Gilles</h2>
       <p className={styles.role}>
-        I build professional and accessible websites
+       Software Developer focused on web applications and backend systems.
       </p>
       <div className="block md:hidden mt-3">
         <LinkButton text="Porfolio" path="/portfolio" style={{}} />

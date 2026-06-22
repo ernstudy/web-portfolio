@@ -3,7 +3,7 @@ export default function ContactInfo() {
   return (
     <div className={styles.info}>
       <h1 className={styles.title}>
-        Looking for a Web designer or need a website?
+        Looking for a Software developer or need a website?
       </h1>
       <p className={styles.content}>
         I am ready to create or collaborate with you on any project. Contact me
