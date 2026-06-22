@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rubik.className}>
-        <Container component="div" maxWidth="lg">
+        <Container  maxWidth="lg">
           <div className="container-all">
             {/* Sidebar only visible on md and up */}
             <aside className={`${styles.sidebar}`}>
