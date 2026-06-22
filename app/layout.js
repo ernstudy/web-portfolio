@@ -5,7 +5,6 @@ import Sidebar from "./Sidebar";
 import { Container } from "@mui/material";
 import Footer from "@/components/Footer/Footer";
 import MobileNav from "@/components/MobileNav/MovileNav";
-import MobileMenuToggle from "@/components/MobileNav/MobileMenuToggle";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -49,7 +48,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rubik.className}>
-        <Container  maxWidth="lg">
+        <Container component="main" maxWidth="lg">
           <div className="container-all">
             {/* Sidebar only visible on md and up */}
             <aside className={`${styles.sidebar}`}>
@@ -73,7 +72,7 @@ export default function RootLayout({ children }) {
 
         <div className="block md:hidden">
           {" "}
-          <MobileMenuToggle />
+          <MobileNav />
         </div>
       </body>
     </html>
