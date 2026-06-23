@@ -89,7 +89,7 @@ export default function Skills() {
 ];
   return (
     <section className={styles.container}>
-      <h3 className={styles.heading}> Skills :</h3>
+      <h3 className={styles.heading}>Skills :</h3>
 
       <div className={styles.skills}>
         {skills.map((item, idx) => (

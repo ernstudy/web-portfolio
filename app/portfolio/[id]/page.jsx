@@ -36,11 +36,15 @@ export default async function page({ params }) {
           <div className={styles.info}>
              {/* tecnologies used */}
             <div className={styles.tecnologies}>
-              {project?.tecnologies?.map((tecnology) => (
+              {project?.tecnologies?.map((tecnology, idx) => (
                 <img
+                  key={idx}
                   className={styles.img}
                   src={tecnology}
                   alt={tecnology}
+
+                 
+                  
                 />
               ))}
             </div>
