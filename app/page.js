@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 export const metadata = {
   title: "Home | SAINGILLES ERNST",
   description:
-    "Welcome to Ernst's portfolio. Explore UI/UX projects and modern web development case studies.",
+    "Welcome to Ernst's portfolio. Explore my projects and modern web development case studies.",
 };
 
 export default function home() {
