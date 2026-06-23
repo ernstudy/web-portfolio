@@ -1,5 +1,5 @@
 import EducationInfo from "./EducationInfo";
-import Timeline from "./EducationTimeLine";
+import Certifications from "./Certifications";
 export const metadata = {
   title: "Education | SAINGILLES ERNST | Frontend Skills & UI/UX Learning",
   description:
@@ -10,7 +10,7 @@ export default function page() {
   return (
     <div>
       <EducationInfo />
-      <Timeline />
+      <Certifications />
     </div>
   );
 }
