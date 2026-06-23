@@ -1,15 +1,10 @@
 @import "tailwindcss";
 
-/* globals.css */
-
-/* ✨ Import Google Font */
-
-/* 📐 Base font size: 1rem = 10px */
 html {
   font-size: 62.5%;
 }
 
-/* 🌞 Light Theme Variables */
+/* Light Theme Variables */
 :root {
   /* Typography */
   --font-family-base: "Robik", sans-serif;
@@ -74,7 +69,7 @@ html {
   --color-text: var(--color-gray-800);
 }
 
-/* 🌚 Dark Theme Variables */
+/*Dark Theme Variables */
 @media (prefers-color-scheme: dark) {
   :root {
     /* Darker variants of main color */
@@ -122,7 +117,9 @@ body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-md);
   line-height: 1.6;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .container-all {
